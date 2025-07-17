@@ -20,8 +20,8 @@ Resources are organized as follows:
   - PostgreSQL RDS instance in private subnet
   - Security Groups
   - Route53 DNS records
-    - Production: api.micropaye.com
-    - Staging: api.staging.micropaye.com
+    - Production: api.trymicro.io
+- Staging: api.staging.trymicro.io
 
 ## Zero-Downtime Deployment
 
@@ -54,7 +54,7 @@ infra/
 
 - OpenTofu CLI installed
 - AWS CLI configured
-- Route53 domain setup for api.micropaye.com
+- Route53 domain setup for api.trymicro.io
 
 ## Usage
 

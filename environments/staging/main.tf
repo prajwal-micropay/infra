@@ -31,7 +31,7 @@ module "uploads_storage" {
 
   environment = "staging"
   uploads_bucket_name = var.uploads_bucket_name
-  cors_allowed_origins = ["https://${var.domain_name}", "https://staging.micropaye.com"]
+  cors_allowed_origins = ["https://${var.domain_name}", "https://staging.trymicro.io"]
 }
 
 # Networking

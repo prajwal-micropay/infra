@@ -4,7 +4,7 @@ variable "environment" {
 }
 
 variable "domain_name" {
-  description = "Domain name for the application (e.g., api.micropaye.com or api.staging.micropaye.com)"
+  description = "Domain name for the application (e.g., api.trymicro.io or api.staging.trymicro.io)"
   type        = string
 }
 

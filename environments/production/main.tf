@@ -32,7 +32,7 @@ module "uploads_storage" {
 
   environment = "production"
   uploads_bucket_name = var.uploads_bucket_name
-  cors_allowed_origins = ["https://${var.domain_name}", "https://web.micropaye.com"]
+  cors_allowed_origins = ["https://${var.domain_name}", "https://web.trymicro.io"]
 }
 
 # Certificate for HTTPS
